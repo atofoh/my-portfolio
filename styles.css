@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.hero-section{
+    margin: 3em 0;
+}
+
+/* Utility Classes */
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
