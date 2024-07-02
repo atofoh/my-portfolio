@@ -101,7 +101,7 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .list {
     grid-template-columns: repeat(3, 1fr);
   }
